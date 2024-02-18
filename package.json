@@ -20,16 +20,30 @@
 		"@types/eslint": "8.56.0",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
+		"autoprefixer": "^10.4.17",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
+		"flowbite": "^2.2.1",
+		"flowbite-svelte": "^0.44.23",
+		"postcss": "^8.4.35",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
 		"svelte": "^4.2.7",
 		"svelte-check": "^3.6.0",
+		"tailwindcss": "^3.4.1",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@google-cloud/vertexai": "^0.3.1",
+		"@google/generative-ai": "^0.2.0",
+		"@mistralai/mistralai": "^0.0.10",
+		"ai": "^2.2.35",
+		"dotenv": "^16.4.3",
+		"openai": "^4.27.1",
+		"openai-edge": "^1.2.2"
+	}
 }
